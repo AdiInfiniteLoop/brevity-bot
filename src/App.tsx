@@ -1,11 +1,15 @@
-import './App.css'
+import Hero from "./components/Hero";
+import Demo from "./components/Demo";
 
-function App() {
+import "./App.css";
+
+const App = () => {
   return (
-  <div className="bg-red-500">
-    Brevity Bot
-    </div>
-  )
-}
+    <main>
+        <Hero />
+        <Demo />
+    </main>
+  );
+};
 
-export default App
+export default App;
